@@ -7,9 +7,9 @@ public class UserApp {
 		User[] info = new User[3]; //배열에 사람담기
 		
 		//닉네임, 비번, 이름
-		Customer p01 = new Customer("jws", "j1234", "정우성", 1000);
-		Customer p02 = new Customer("yis", "y2345", "이효리", 2000);
-		Employee p03 = new Employee("master", "m7788", "운영자", 5000000);
+		User p01 = new Customer("jws", "j1234", "정우성", 1000);
+		User p02 = new Customer("yis", "y2345", "이효리", 2000);
+		User p03 = new Employee("master", "m7788", "운영자", 5000000);
 		
 		info[0] = p01;
 		info[1] = p02;
