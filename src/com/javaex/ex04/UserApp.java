@@ -17,10 +17,8 @@ public class UserApp {
 		
 		for(int i=0; i<info.length; i++) {
 			info[i].showInfo();
-			if(name=="운영자") { //어떻게 하는거지..
-				
-			}
 		}
+		System.out.println(p03.getName() + "의 월급은 " + ((Employee)p03).getSalary() + "원 입니다.");	
 	}
 
 }
